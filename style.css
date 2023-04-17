@@ -1,0 +1,70 @@
+
+.container{
+    background-color: #B7E5DD;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.chat {
+   background-color: #f7f7f7;
+    
+}
+.ireceivemsg{
+    padding-bottom: 12px;
+}
+.isendmsg{
+    padding-bottom: 12px;
+    position: relative;
+}
+.isendmsgforstyle {
+    
+    background: #C1F8CF;
+    color: black;
+    min-width: 7rem;
+    min-height: 2rem;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 20rem;
+    align-items: center;
+    border-radius: 5px 4px 2px 17px;
+}
+.irecievemsgforstyle{
+   
+        background: #D6E4E5;
+    
+        color: black;
+        min-width: 7rem;
+        min-height: 2rem;
+        padding-left: 20px;
+        display: flex;
+        justify-content: flex-start;
+        max-width: 20rem;
+        align-items: center;
+        border-radius: 5px 4px 2px 17px;
+    
+
+}
+.senddd{
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.30rem;
+    opacity: 50%;
+    font-size: 14px;
+}
+.senddd2{
+    position: absolute;
+     bottom: 0.75rem;
+        right: 0.62rem;
+        opacity: 50%;
+        font-size: 14px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container w-screen h-screen bg-mainbg flex justify-center items-center  ">
+        <div class="form_container bg-white p-5  rounded-lg w-[30rem] max-[600px]:w-[25rem] ">
+            <form action="" method="post" class="flex flex-col" >
+                <h3 class="text-3xl font-bold pb-4  text-center ">Welecome to Chatt </h3>
+                
+                <label class="block pb-4">
+                    <span class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">
+                        Username
+                    </span>
+                    <input type="text" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="med2456" />
+                </label>
+                
+                <label class="block pb-4">
+                    <span class=" block text-sm font-medium text-slate-700 ">
+                        Password
+                    </span>
+                    <input type="password" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" placeholder="password" />
+                </label>
+
+                
+              
+                <div class="w-full pt-5 ">
+                <button type="submit" class="w-full font-semibold rounded-lg h-8 bg-violet-500 text-white  hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">
+                    Go to chat 
+                </button>
+                </div>
+
+                <div class="flex gap-3 py-5 justify-center" >
+                    <p>if you dont have an account ? </p> 
+                    <a href="index.html" class="text-slate-400">register Now </a>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
